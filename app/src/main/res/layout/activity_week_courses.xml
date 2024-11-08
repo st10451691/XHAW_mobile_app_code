@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WeekCourses">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="66dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="331dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/empowering_the_nation_logo" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="307dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="monospace"
+        android:text="6-Week Courses"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="376dp"
+        android:layout_height="123dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="sans-serif"
+        android:text="Child Minding Fees: R750 Purpose: To provide basic child and baby care, birth to six-month old baby needs, seven-month to one year old needs, Toddler needs, Educational toys."
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="376dp"
+        android:layout_height="123dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="18dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="sans-serif"
+        android:text="Cooking Fees: R750 Purpose: To prepare and cook nutritious family meals, Nutritional requirements for a healthy body, Types of protein, carbohydrates and vegetables, Planning meals, Preparation and cooking of meals. "
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="376dp"
+        android:layout_height="123dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="18dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="sans-serif"
+        android:text="Garden Maintenance Fees: R750 Purpose: To provide basic knowledge of watering, pruning and planting in a domestic garden, Water restrictions and the watering requirements of indigenous and exotic plants, Pruning and propagation of plants, Planting techniques for different plant types."
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button5" />
+</androidx.constraintlayout.widget.ConstraintLayout>
